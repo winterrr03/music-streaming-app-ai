@@ -44,7 +44,7 @@ async def upload():
         file.save(temp_audio_path) # Save the uploaded mp3 audio to the temp directory
 
         emb = generate_embedding(temp_audio_path)
-        emb_str = np.array2string(emb, separator=',', formatter={'float_kind':lambda x: "%.20f" % x}).replace(' ', '')
+        # emb_str = np.array2string(emb, separator=',', formatter={'float_kind':lambda x: "%.20f" % x}).replace(' ', '')
         
         # print("vector:", emb_str) # Debugging statement to see vector output
         
