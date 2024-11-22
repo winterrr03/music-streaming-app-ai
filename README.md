@@ -25,5 +25,5 @@ venv/bin/activate
 pip install -r requirements.txt
 
 # Run server
-python server.py
+flask run
 ```
