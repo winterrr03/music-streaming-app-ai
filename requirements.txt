@@ -1,3 +1,5 @@
+setuptools>=65.0.0
+wheel
 astrapy==1.4.0
 basic_pitch[onnx]
 Flask==3.0.3
