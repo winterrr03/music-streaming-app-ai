@@ -62,11 +62,7 @@ async def upload():
                 
                 if response.status_code == 200:
                     track_details = response.json()
-                    # tracks.append(track_details['result'])
-                    tracks.append({
-                        'track_id': track_details['result']['track_id'],
-                        'track_name': track_details['result']['track_name'],
-                    })
+                    tracks.append(track_details['result'])
 
         os.remove(temp_audio_path)
 
