@@ -3,6 +3,6 @@
   "builds": [{ "src": "server.py", "use": "@vercel/python" }],
   "routes": [{ "src": "/(.*)", "dest": "server.py" }],
   "scripts": {
-    "build": "pip install --upgrade pip setuptools && pip install -r requirements.txt"
+    "build": "pip install --upgrade pip setuptools && pip install --upgrade -r requirements.txt"
   }
 }
