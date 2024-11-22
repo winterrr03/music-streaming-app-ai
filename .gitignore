@@ -1,0 +1,5 @@
+/__pycache__
+/venv
+/separated
+song_data.csv
+.env
